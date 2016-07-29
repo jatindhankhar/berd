@@ -6,7 +6,7 @@ class Tag(models.Model):
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=255, null=True, default='')
 
-    def __str__(self):
+    def __unicode__(self):
         return self.name
 
 
@@ -18,7 +18,7 @@ class Post(models.Model):
     modified = models.DateTimeField(auto_now=True)
     tags = models.ManyToManyField(Tag)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.title
 
     class Meta:
