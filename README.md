@@ -7,3 +7,5 @@ This app is for submission purposes only
 <li> <a href="https://docs.djangoproject.com/en/dev/howto/custom-template-tags/">Custom Template tags </a> </li>
 <li> <a href="http://arunrocks.com/recreating-the-building-a-blog-in-django-screencast/"> Building a blog in minutes - Django Screencast </a> </li>
 </ul>
+
+![Screenshot](screenshot.png)
